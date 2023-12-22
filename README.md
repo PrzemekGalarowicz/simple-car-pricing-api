@@ -1,4 +1,4 @@
-# simple-potato-pricing-api
+# Simple Potato Pricing API
 
 Simple API that allows users to check the price of potatoes. I try to use a few concepts in the code. They may not be relevant in real-live apps, but they are used here just to check them out.
 
