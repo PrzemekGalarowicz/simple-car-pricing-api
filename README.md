@@ -1,6 +1,6 @@
-# Simple Potato Pricing API
+# Simple Car Pricing API
 
-Simple API that allows users to check the price of potatoes. I try to use a few concepts in the code. They may not be relevant in real-live apps, but they are used here just to check them out.
+Simple API that allows users to check the price of potatoes. I use a few concepts in the code. They may not be relevant in real-live apps, but they are used here to check them out.
 
 So, don't judge me too much. :innocent:
 
