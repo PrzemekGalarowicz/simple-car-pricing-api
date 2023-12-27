@@ -7,7 +7,7 @@ import { AppService } from './app.service';
 import { UsersModule } from './users/users.module';
 import { ReportsModule } from './reports/reports.module';
 import { User } from './users/entities/user.entity';
-import { Reports } from './reports/reports.entity';
+import { Report } from './reports/entities/report.entity';
 import cookieSession from 'cookie-session';
 
 @Module({
@@ -21,7 +21,7 @@ import cookieSession from 'cookie-session';
       useFactory: (config: ConfigService) => ({
         type: 'sqlite',
         database: config.get<string>('DB_NAME'),
-        entities: [User, Reports],
+        entities: [User, Report],
         synchronize: true,
       }),
     }),
