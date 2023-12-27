@@ -14,6 +14,9 @@ export class ReportDto {
   make: string;
 
   @Expose()
+  model: string;
+
+  @Expose()
   year: number;
 
   @Expose()

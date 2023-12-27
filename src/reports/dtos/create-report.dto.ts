@@ -16,6 +16,9 @@ export class CreateReportDto {
   @IsString()
   make: string;
 
+  @IsString()
+  model: string;
+
   @IsNumber()
   @Min(1930)
   @Max(2050)
